@@ -132,7 +132,7 @@ console.log(brandons_truck)
 
 // Write your 'mazda3' instance below:
 // model, doors, color, enginetype, transmission, trim, wheelstrim, audio, seatstrim, moonroof, enginesize, navigation, backupcamera, warranty
-const mazda3 = new Car("mazda3", "", "red", "hybrid", "automatic", "touring", "base", "premium", "leather", true)
+const mazda3 = new Car("Mazda3", "", "red", "hybrid", "automatic", "touring", "base", "premium", "leather", true)
 
 // Print mazda3. I should have all the above properties.
 // Write your code below:
@@ -191,7 +191,7 @@ console.log(miataRf.customerBuild("black", ["hid headlights",  "sports suspensio
 
 // model, color, enginesize, hitch, bed, navigation, backupcamera, audio, trim, doors, warranty
 
-const trailBlazer = new Truck("Trail Blazer", "blue", "8", true, "standard", " ", " ", "basic", "sport", 2);
+const trailBlazer = new Truck("Trail Blazer", "blue", "8", true, "standard", true, " ", "basic", "sport", 2);
 
 
 // Print trailBlazer. It should have all the above properties. Plus, the extended warranty.
